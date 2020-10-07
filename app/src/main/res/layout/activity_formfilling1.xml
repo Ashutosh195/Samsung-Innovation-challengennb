@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5B321"
+    tools:context=".formfilling1">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="#F9F9FB"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="#F9F9FB"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="#F9F9FB"
+        android:ems="10"
+        android:hint="Pincode"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="#F9F9FB"
+        android:text="Plasma Bank available"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="#F9F9FB"
+        android:text="Plasma Therepy available"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="#F9F9FB"
+        android:ems="10"
+        android:hint="License No."
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="#F9F9FB"
+        android:text="Blood Bank available"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="#F9F9FB"
+        android:ems="10"
+        android:hint="Contact Details"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="137dp"
+        android:layout_height="53dp"
+        android:onClick="tocontinue1"
+        android:text="submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
